@@ -773,7 +773,7 @@
 											"top": 280,
 											"width": 215.9697265625,
 											"height": 13,
-											"text": "+createNotification(): INotification",
+											"text": "#createNotification(): INotification",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1093,7 +1093,7 @@
 											"top": 424,
 											"width": 192.83251953125,
 											"height": 13,
-											"text": "+createNotification(): INotification",
+											"text": "#createNotification(): INotification",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1397,7 +1397,7 @@
 											"top": 520,
 											"width": 192.83251953125,
 											"height": 13,
-											"text": "+createNotification(): INotification",
+											"text": "#createNotification(): INotification",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2108,6 +2108,7 @@
 								"$ref": "AAAAAAGdP64T1GOKhO8="
 							},
 							"name": "createNotification",
+							"visibility": "protected",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -2188,6 +2189,7 @@
 								"$ref": "AAAAAAGdP7IzeWRsUoU="
 							},
 							"name": "createNotification",
+							"visibility": "protected",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -2247,6 +2249,7 @@
 								"$ref": "AAAAAAGdP7KRMWSnz2s="
 							},
 							"name": "createNotification",
+							"visibility": "protected",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -2288,6 +2291,24 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Interface2"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAGdP9wdAhxtM8M=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "notification",
+					"ownedElements": [
+						{
+							"_type": "UMLPackage",
+							"_id": "AAAAAAGdP9w9SByHk98=",
+							"_parent": {
+								"$ref": "AAAAAAGdP9wdAhxtM8M="
+							},
+							"name": "Package1"
+						}
+					]
 				}
 			]
 		}
